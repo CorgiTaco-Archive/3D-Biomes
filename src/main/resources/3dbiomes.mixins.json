@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "corgitaco.biomes3d.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "3dbiomes.refmap.json",
+  "mixins": [
+    "world.biome.ColumnFuzzedBiomeMagnifierMixin",
+    "world.biome.MixinChunkGenerator",
+    "world.biome.MixinOverworldBiomeProvider"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
